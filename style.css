@@ -1,0 +1,284 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	
+	}
+p { 
+		font-family: 'Roboto', sans-serif; color: #804000;
+		text-align: center;
+	}
+h2 { 
+		font-family: 'Permanent Marker', cursive; color: #804000; font-size: 20px;
+	}
+h3 { 
+		
+		width: 250px;
+		height: 50px;
+		margin: 20px auto;
+		border-radius: 40%;
+		position:relative;
+		font-family: 'Fredoka one', cursive; color: #804000;
+		text-align: center;
+		font-size: 20px;
+		border:4px dotted black;
+		background-color: #ffdd99;
+	}
+a:link { 
+
+	color: #B7A5DF;
+	}
+a:visited { 
+
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+
+	}
+abbr {
+		font-family: 'Architects Daughter', cursive;
+	}
+
+
+/* specific divs */
+.page-wrapper { 
+	background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+.intro { 
+	background-image: url(bar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:4px solid black;
+
+    height: 850px;
+	}
+
+header h1 { 
+	width: 450px;
+	height: 220px;
+	margin: 20px auto;
+	border-radius: 50%;
+	position:relative;
+	font-family: 'Permanent Marker', cursive; color: #804000;
+	text-align: center;
+	font-size:70px;
+	border:4px dotted black;
+	background-color: #ffdd99;
+	}
+header h2 { 
+	width: 300px;
+	height: 30px;
+	margin: 20px auto;
+	position: relative;
+	text-align: center;
+	border:4px dotted black;
+	background-color: #ffdd99;
+	}
+header {
+
+}
+
+.summary {
+	height: 80px;
+	width: 60%;
+	margin: 20px auto;
+	position: relative;
+	border:4px dotted black;
+	background-color: #ffdd99;
+	}
+.summary p {
+	
+	}
+
+.preamble {
+	height: 400px;
+	width: 550px;
+	margin: 20px auto;
+	position: relative;
+	border:4px dotted black;
+	background-color: #ffe6b3;
+	}
+
+.supporting {
+	height: 800px;
+	width: 98%;
+	border-radius: 5%;
+	margin: 20px auto;
+	position: relative;
+	background-color: rgb(255, 221, 153, 0.8);
+}
+
+.explanation {	
+	height: 400px;
+	width: 550px;
+	border-radius: 10%;
+
+	position: absolute;
+	top: 30px;
+	left: 30px;
+
+	border:4px dotted black;
+	background-color: #ffe6b3;
+	}
+.participation {
+	height: 400px;
+	width: 550px;
+	border-radius: 10%;
+
+	position: absolute;
+	top: 30px;
+	right: 30px;
+
+	border:4px dotted black;
+	background-color: #ffe6b3;
+}
+.benefits {
+	height: 220px;
+	width: 550px;
+	border-radius: 10%;
+
+	position: absolute;
+	top: 500px;
+	left: 100px;
+
+	border:4px dotted black;
+	background-color: #ffe6b3;
+}
+.requirements {
+	height: 650px;
+	width: 550px;
+	border-radius: 10%;
+
+	position: absolute;
+	top: 100px;
+	left: 675px;
+
+	border:4px dotted black;
+	background-color: #ffe6b3;
+}
+
+footer { 
+		height: 250px;
+		width: 200px;
+		border-radius: 10%;
+
+		position: absolute;
+		top: 500px;
+		right: 200px;
+
+		border:4px dotted black;
+		background-color: #ffe6b3;
+	}
+ .zen-validate-html {
+	background-image: url(html5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+
+    position: absolute;
+    top: 10px;
+	left: 10px;
+ }
+ .zen-validate-css {
+	background-image: url(css.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+
+    position: absolute;
+    top: 10px;
+	right: 10px;
+}
+.zen-license {
+	background-image: url(license.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+
+    position: absolute;
+    bottom: 10px;
+	left: 10px;
+}
+.zen-accessibility {
+	background-image: url(accessibility.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+
+    position: absolute;
+    bottom: 10px;
+	right: 10px;
+}
+.zen-github {
+	background-image: url(github.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+
+    position: absolute;
+    bottom: 85px;
+    left: 60px;
+}
+footer a:link, footer a:visited { 
+		
+	}
+
+.sidebar {
+
+	}
+.sidebar .wrapper { 
+
+	}
+.sidebar h3.select { 
+
+	}
+.sidebar h3.archives { 
+
+	}
+.sidebar h3.resources { 
+
+	}
+
+
+.sidebar ul {
+
+	}
+.sidebar li {
+
+	}
+.sidebar li a:link {
+
+	}
+.sidebar li a:visited {
+
+	}
+
+
+.extra1 {
+
+	}
